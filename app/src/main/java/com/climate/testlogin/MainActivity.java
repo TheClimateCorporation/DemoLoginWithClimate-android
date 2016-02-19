@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity implements LoginButton.Login
 
 		textView = (TextView)findViewById(R.id.textView);
 		LoginButton loginButton = (LoginButton) findViewById(R.id.login);
+		loginButton.setCredentials("YOUR CLIENT ID HERE", "YOUR CLIENT SECRET HERE");
 		loginButton.registerListener(this);
-		loginButton.setCredentials("dp9n9roauri85s", "81e9cnfu2bma9m0eabbamnb0ar");
 
 	}
 
