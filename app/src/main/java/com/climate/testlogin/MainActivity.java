@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements LoginButton.Login
 		Log.d(TAG, "onLogin");
 
 		final JsonObjectRequest jsObjRequest = new JsonObjectRequest
-				(Request.Method.GET, "https://hackillinois.climate.com/api/fields", null, new Response.Listener<JSONObject>() {
+				(Request.Method.GET, "https://hack.climate.com/api/fields", null, new Response.Listener<JSONObject>() {
 
 					@Override
 					public void onResponse(JSONObject response) {
